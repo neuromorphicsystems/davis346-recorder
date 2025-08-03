@@ -8,7 +8,9 @@
 > [!WARNING]
 > The Python version that comes from Microsoft's Windows Store does not work with PySide6 (specifically, PySide6 complains that it cannot find qtquick2plugin.dll even though the file exists). Make sure to install Python from the official website https://www.python.org.
 
-1. Create a virtual environment
+1. Clone this repository (`git clone https://github.com/neuromorphicsystems/davis346-recorder`) or download and unzip a copy (`<> Code` button). Open a terminal and `cd` to the repository's directory.
+
+2. Create a virtual environment
 
     ```sh
     # Linux, macOS
@@ -18,7 +20,7 @@
     python -m venv .venv
     ```
 
-2. Activate the virtual environment
+3. Activate the virtual environment
 
     ```sh
     # Linux, macOS
@@ -31,7 +33,7 @@
     .venv\Scripts\Activate.ps1
     ```
 
-3. Install dependencies
+4. Install dependencies
 
     ```sh
     pip install neuromorphic-drivers faery PySide6 pillow
