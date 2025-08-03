@@ -70,7 +70,7 @@ See https://docs.inivation.com/hardware/hardware-advanced-usage/biasing.html for
 
 3. Run `faery init`
 
-4. Faery cannot automatically tell the sensor width and height from a CSV file. In **faery_script.py** (created by the previous command), find all the calls to `faery.events_stream_from_file` and add the argument `dimensions_fallback=(346, 260)`. The modified called should look like the following:
+4. Faery cannot automatically tell the sensor width and height from a CSV file. In **faery_script.py** (created by the previous command), find all the calls to `faery.events_stream_from_file` and add the argument `dimensions_fallback=(346, 260)`. The modified calls should look as follows:
 
     ```py
     faery.events_stream_from_file(input, dimensions_fallback=(346, 260))
