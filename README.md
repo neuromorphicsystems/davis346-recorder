@@ -5,10 +5,17 @@
 
 # Install
 
+> [!WARNING]
+> The Python version that comes from Microsoft's Windows Store does not work with PySide6 (specifically, PySide6 complains that it cannot find qtquick2plugin.dll even though the file exists). Make sure to install Python from the official website https://www.python.org.
+
 1. Create a virtual environment
 
     ```sh
+    # Linux, macOS
     python3 -m venv .venv
+
+    # Windows
+    python -m venv .venv
     ```
 
 2. Activate the virtual environment

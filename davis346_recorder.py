@@ -298,7 +298,7 @@ if __name__ == "__main__":
                                 to: 100000
                                 stepSize: 1
                                 editable: true
-                                value: {int(round(ui.DEFAULT_TAU / 1000))}
+                                value: 100
                                 onValueChanged: {{
                                     eventDisplayOverlay.tau = value * 1000
                                     eventDisplayStandalone.tau = value * 1000
