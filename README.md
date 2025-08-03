@@ -1,9 +1,9 @@
-- [Install](#install)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Render event data](#render-event-data)
-- [Read frames](#read-frames)
+- [Render frames](#render-frames)
 
-# Install
+# Installation
 
 > [!WARNING]
 > The Python version that comes from Microsoft's Windows Store does not work with PySide6 (specifically, PySide6 complains that it cannot find qtquick2plugin.dll even though the file exists). Make sure to install Python from the official website https://www.python.org.
@@ -78,7 +78,7 @@ See https://docs.inivation.com/hardware/hardware-advanced-usage/biasing.html for
 
 See https://github.com/aestream/faery?tab=readme-ov-file#workflow for an example on how to generate a slow-motion video render.
 
-# Read frames
+# Render frames
 
 The Davis346 ADC has a precision of 10 bits, hence the frame values are in the range [0, 1023].
 
