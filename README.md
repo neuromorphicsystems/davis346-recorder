@@ -27,7 +27,7 @@
     source .venv/bin/activate
 
     # Windows (cmd.exe)
-    .venv\Scripts\Activate.ps1
+    .venv\Scripts\activate.bat
 
     # Windows (PowerShell)
     .venv\Scripts\Activate.ps1
@@ -48,7 +48,7 @@
     source .venv/bin/activate
 
     # Windows (cmd.exe)
-    .venv\Scripts\Activate.ps1
+    .venv\Scripts\activate.bat
 
     # Windows (PowerShell)
     .venv\Scripts\Activate.ps1
